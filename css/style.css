@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,400&display=swap');
+
+
+.header {
+    background-color: black;
+    padding: 33px 0 32px;
+    color: aliceblue;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* 1:24 Обьеснение про маджин и падинг верстка для маленьких*/
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.phone{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.menu-item{
+    padding-right: 30px;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family:  'Archivo', sans-serif;
+    font-size: 15px;
+    color: #bdbdbd;
+    
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.headline{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px 0 40px;
+    text-transform: uppercase;
+    margin-bottom: 0 0 40px;
+    color: rgb(62, 0, 119);
+    font-weight: 700px;
+    font-size: 55px;
+    line-height: 77px;
+}
+
+.headline-img{
+    margin-bottom: 25px;
+    width: 900px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.headline-btn {
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: rgb(48, 0, 87);
+    font-weight: 700;
+    transition: 0.2s;
+
+}
+
+.headline-btn:hover {
+    color: #fff;
+    border: 0;
+    background-color: #6309a0;
+    box-shadow: 10px 10px 100px 6px rgb(135, 94, 168);
+}
+
+/*.headline-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-style: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: rgb(57, 0, 83);
+    background-color: transparent;
+    padding: 22px 117px 19px;
+    border-radius: 30px;
+
+}*/
+
+
+
+.new{
+    padding: 90px 0 150px;
+}
+
+.new-title, .colour-titles{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.images-new{
+    display: flex;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 500x;
+    height: 500px;
+
+}
+
+.new-info{
+    display: flex;
+    align-items: center;
+}
+
+.new-text p, .colour-item{
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+
+}
+
+.colour{
+    padding-bottom: 150px;
+}
+
+
+
+.colour-item img{
+    display: flex;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+
+.colour-item h3{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.colour-item h3 p{
+    margin: 0;
+
+}
+
+.colour-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.contacts-inner{
+    display: flex;
+    background-color: rgb(71, 55, 85);
+    color: white;
+    text-align: center;
+
+}
+
+.contacts-inner img{
+    display: flex;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 420px;
+   
+}
+
+.contacts-forms{
+    width: 100%;
+   
+}
+
+.contacts-title{
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px; 
+    line-height: 39px;
+    padding-top: 40px;
+}
+
+.contacts-input{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(71, 55, 85);
+
+}
+
+.contacts-input::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    opacity: .5;
+    font-family:  'Archivo', sans-serif;
+    font-weight: 100;
+    padding-left: 20px;
+
+}
+
+.contacts-forms p{
+    opacity: .5;
+    padding-left: 30px;
+}
+ 
+.contacts-forms button{
+    border: none;
+    text-transform: uppercase;
+    color: rgb(56, 0, 109);
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.footer-inner{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.sm-photo{
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+      
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
